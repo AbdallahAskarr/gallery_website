@@ -1,0 +1,123 @@
+:root {
+    --colorbox: #eeeeee;
+}
+
+.parent {
+    width: 100%;
+    height: 570px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+
+}
+
+.child_three {
+    height: 540px;
+    width: 100%;
+    background-color: black;
+    background-color: var(--colorbox);
+
+}
+
+
+#image_three {
+    width: 100%;
+    filter: contrast(1.5);
+    height: 300px;
+}
+
+.aha {
+    display: flex;
+    width: 70px;
+    height: 60px;
+    background-color: black;
+    border: 3px solid white;
+    position: relative;
+    color: white;
+    left: 20px;
+    bottom: 30px;
+
+
+}
+
+.aha span {
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.card-title {
+    text-align: left;
+    position: relative;
+    left: 10px;
+    top: -10px;
+}
+
+.card-text {
+    text-align: start;
+    position: relative;
+    left: 10px;
+    top: -3px;
+
+}
+
+.child_three button {
+    display: flex;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    width: 150px;
+    height: 43px;
+    background-color: transparent;
+    text-align: center;
+    padding-left: 31px;
+    padding-top: 6px;
+    border: 1px solid black;
+    transition: .5s;
+    font-weight: 500;
+}
+
+.child_three button:hover {
+    background-color: black;
+    color: white;
+}
+
+
+@media (max-width:768px) {
+
+
+    .parent {
+        flex-direction: column;
+        height: 120%;
+        padding: 2rem 3%;
+    }
+
+    .child_three button {
+        position: relative;
+        top: -6px;
+    }
+
+
+
+
+    #image_three {
+        height: 70vw;
+    }
+
+    .card-text {
+        width: 90%;
+    }
+
+
+
+}
+
+@media (max-width:991px) {
+    .child_three {
+        height: 100%;
+    }
+}
+
+

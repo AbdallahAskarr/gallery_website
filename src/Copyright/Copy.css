@@ -1,0 +1,16 @@
+.copyright {
+    height: 120px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+#copy {
+    color: black;
+    font-family: serif;
+}
+
+#copy q {
+    color: red;
+    opacity: 1;
+}

@@ -1,0 +1,187 @@
+.parentFooter {
+    height: 310px;
+    background-color: #160e0b;
+
+}
+
+.secondParent {
+    margin-top: 30px;
+}
+
+::placeholder {
+    position: relative;
+    left: 10px;
+    font-family: "Poppins", sans-serif;
+}
+
+.inputone {
+    width: 100%;
+    height: 55px;
+    border: none;
+}
+
+.social_media {
+    height: 55px;
+    margin: 1.5px auto;
+    width: 100%;
+}
+
+.social_media i {
+    width: 50px;
+    height: 45px;
+    margin: 6px;
+    text-align: center;
+    padding-top: 12px;
+    font-size: 18px;
+    border: .5px solid white;
+}
+
+.social_media i:hover {
+    color: #fd9c6b;
+    border: .5px solid #fd9c6b;
+}
+
+.ahaa {
+    margin-top: 30px;
+}
+
+#footerlink h5 {
+    color: white;
+    font-size: 23px;
+}
+
+#footerlink {
+    margin-top: 30px;
+}
+
+.photoFooter {
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.photoFooter img {
+    width: 25%;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+    background-color: white;
+}
+
+.photoFooter p {
+    color: white;
+    text-align: start;
+    position: relative;
+    left: 10px;
+}
+
+
+
+#hh5 {
+    text-align: start;
+}
+
+#footerlinkk {
+    margin-top: 30px;
+
+}
+
+#footerlinkk h5{
+color: white;
+    font-size: 23px;
+}
+
+#footerlink a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 5px;
+    text-align: start;
+    font-family: "Poppins", sans-serif;
+}
+
+#footerlink a:hover {
+    color: #fd9c6b;
+}
+
+
+#footerlink p {
+    color: white;
+    text-align: start;
+}
+
+.loc {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 6px;
+    margin-top: 15px;
+}
+
+
+.loc i {
+    position: relative;
+    left: 9px;
+}
+
+.locc {
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-around;
+    margin-bottom: 6px;
+}
+
+.locc i {
+    position: relative;
+    bottom: 4px;
+}
+
+.locc,
+.loccc,
+.loc h6,
+i {
+    color: white;
+}
+
+.loccc {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-around;
+    margin-bottom: 6px;
+}
+
+.loccc i {
+    position: relative;
+    bottom: 3px;
+}
+
+
+.locc:hover,
+.loccc:hover,
+.loc :hover {
+    color: #fd9c6b;
+}
+
+
+@media (max-width:768px) {
+    .parentFooter {
+        height: 100%;
+        padding: 3-rem 3%;
+    }
+
+#footerlinkk{
+position: relative;
+right: 55px;
+}
+#footerlinkk h6{
+    position: relative;
+    left: 10px;
+}
+}

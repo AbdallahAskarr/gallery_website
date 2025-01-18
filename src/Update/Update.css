@@ -1,0 +1,146 @@
+:root {
+    --thirdcolor: #fd7e14;
+}
+
+#parent_two {
+    height: 600px;
+    width: 98%;
+    margin: 0 auto;
+}
+
+
+#card1 {
+    background-image: url(o1.jpg);
+    width: 100%;
+    height: 450px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#card1 h6 {
+    color: white;
+    text-align: start;
+    position: relative;
+    left: 26px;
+    top: 20px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+    font-size: 3.4rem;
+}
+
+.righth6 {
+    color: white;
+    text-align: start;
+    position: relative;
+    left: 26px;
+    top: 20px;
+
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+    font-size: 2.2rem;
+}
+
+.lefth6 {
+    color: white;
+    text-align: start;
+    position: relative;
+    left: 26px;
+    top: 20px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+    font-size: 2.4rem;
+}
+
+#card2 {
+    background-image: url(o2.jpg);
+    width: 97%;
+    height: 220px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10px;
+
+}
+
+#card3 {
+    background-image: url(o3.jpg);
+    width: 97%;
+    height: 220px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+@media (max-width:768px) {
+
+    #btnfour {
+        color: red;
+    }
+
+    #parent_two {
+        width: 90vw;
+        height: 100%;
+
+    }
+
+    #card1,
+    #card2,
+    #card3 {
+        margin: 0 auto;
+        width: 90vw;
+        height: 300px;
+        margin-bottom: 8px;
+    }
+
+    #card1 h6 {
+        font-size: 2rem;
+        font-weight: 500;
+        width: 55%;
+    }
+
+    .lefth6 {
+        font-size: 2rem;
+        font-weight: 500;
+        width: 55%;
+    }
+
+    .righth6 {
+        font-size: 2rem;
+        font-weight: 500;
+        width: 55%;
+    }
+
+
+
+
+}
+
+
+
+
+
+#btnfour {
+    background-color: transparent;
+    color: white;
+    display: flex;
+    position: relative;
+    left: 30px;
+    top: 30px;
+    border: 1px solid var(--thirdcolor);
+    width: 167px;
+    height: 46px;
+    text-align: center;
+    padding-left: 46px;
+    padding-top: 7px;
+    border-radius: 7px;
+    color: var(--thirdcolor);
+}
+
+#btnfour:hover {
+    background-color: var(--thirdcolor);
+    color: var(--firstcolor);
+    opacity: .5;
+}

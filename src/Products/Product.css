@@ -1,0 +1,82 @@
+:root {
+    --colorbox: #eeeeee;
+}
+
+.pro {
+height: 100%;
+}
+
+
+.head2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3.1rem;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: 500;
+    text-transform: uppercase;
+
+}
+
+.span1 {
+    width: 45px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    border-radius: 22.5px;
+    text-align: center;
+    padding-top: 10px;
+    height: 45px;
+    background-color: white;
+}
+
+#img1 {
+    width: 90%;
+    height: 220px;
+}
+
+.information {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 12px;
+}
+
+.information h6 {
+    font-size: 1.2rem;
+}
+
+.information h6 span {
+    color: #fd7e14;
+}
+
+.pro-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.pro-box {
+    flex: 1 1 16rem;
+    background-color: var(--colorbox);
+}
+
+
+@media (max-width:768px) {
+    .pro {
+        height: 100%;
+
+    }
+
+    .head2 {
+        font-size: 2rem;
+    }
+
+    #img1 {
+        width: 70vw;
+        height: 40%;
+    }
+
+
+}
